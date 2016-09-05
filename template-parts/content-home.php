@@ -118,8 +118,7 @@
 					<?php the_post_thumbnail(); ?> <!-- Картинка поста -->
 					<div class="border-post">
 						<div class="text-post">
-
-							<?php the_title('<div class="n-post">', '</div>'); ?>
+						<a class="none-d" href="<?php the_permalink() ?>"><?php the_title('<div class="n-post">', '</div>'); ?></a>
 							<div class="d-post"><?php the_time('d-m-Y'); ?></div>
 							<?php the_content('Читать далее'); ?>
 						</div>

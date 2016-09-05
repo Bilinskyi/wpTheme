@@ -23,7 +23,7 @@ get_header(); ?>
 		<div class="line clearfix">
 			<div class="line-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/line-logo.png" alt="" width="81" height="80"></div>
 			<div class="center-y">
-				<div class="head">ОТЗЫВЫ</div>
+				<div class="head">Отзывы</div>
 			</div>
 		</div>
 		<div class="comment-wrapp">

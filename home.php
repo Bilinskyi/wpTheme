@@ -27,7 +27,7 @@ get_header(); ?>
 			$args = array( 
 				'post_type' => 'post',
 				'posts_per_page' => 4,
-				 'paged' => $paged
+				'paged' => $paged
 				);
 			$wp_query = new WP_Query($args);
 			while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
@@ -37,8 +37,7 @@ get_header(); ?>
 					<?php the_post_thumbnail(); ?> <!-- Картинка поста -->
 					<div class="border-post">
 						<div class="text-post">
-
-							<?php the_title('<div class="n-post">', '</div>'); ?>
+							<a class="none-d" href="<?php the_permalink() ?>"><?php the_title('<div class="n-post">', '</div>'); ?></a>
 							<div class="d-post"><?php the_time('d-m-Y'); ?></div>
 							<?php the_content('Читать далее'); ?>
 						</div>
