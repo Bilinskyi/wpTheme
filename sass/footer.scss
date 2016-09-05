@@ -1,0 +1,80 @@
+.footer {
+  background-color: #29293a;
+  padding: 60px 0 10px;
+  .wrapp-footer {
+    font-family: $prag;
+    .social {
+      padding-top: 35px;
+      li {
+        display: inline-block;
+        vertical-align: top;
+        a {
+          display: inline-block;
+          text-decoration: none;
+          background-image: url("img/social.png");
+          background-repeat: no-repeat;
+          &.icon-inst {
+            width: 30px;
+            height: 31px;
+            background-position: left top;
+          }
+          &.icon-vk {
+            margin-top: 5px;
+            width: 42px;
+            height: 24px;
+            background-position: -72px -5px;
+            margin-left: 40px;
+            margin-right: 35px;
+          }
+          &.icon-yt {
+            margin-top: 2px;
+            width: 69px;
+            height: 27px;
+            background-position: -150px -3px;
+          }
+        }
+      }
+    }
+    .logo-foot {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .contact-footer {
+      float: right;
+      &>div {
+        padding-left: 52px;
+        background-image: url("img/contact.png");
+        background-repeat: no-repeat;
+        margin-bottom: 30px;
+        &:last-child {
+          margin-bottom: 60px;
+          margin-top: 40px;
+        }
+      }
+      .icon-phone {
+        background-position: left top;
+        text-align: right;
+        .link {
+          display: inline-block;color: #8c3232;
+          font-size: 13px;
+          text-decoration: underline;
+          &:hover {text-decoration: none;}
+        }
+      }
+      .icon-mail {
+        background-position: left -61px;
+      }
+      .icon-place {
+        background-position: left -113px;
+        line-height: 25px;
+      }
+    }
+  }
+  .site {
+    text-align: center;
+    color: #e0dddd;
+    font-size: 13px;
+    font-family: $all;
+  }
+}

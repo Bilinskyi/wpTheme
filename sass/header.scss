@@ -1,0 +1,143 @@
+header {
+  padding-top: 38px;
+  padding-bottom: 30px;
+  &.main-page {
+    background: url(img/main.jpg) center top no-repeat;
+    background-size: cover;
+    min-height: 964px;
+    padding-bottom: 0;
+    &.portfolio {
+      background: url(img/portfolio.jpg) center top no-repeat;
+    }
+    .top-line {
+      margin-bottom: 230px;
+      .menu {
+        a {
+          color: white;
+        }
+      }
+      .form-header {
+        button {
+          background: url(img/search.png) center top no-repeat;
+        }
+        input {
+          border-bottom: 1px solid #fff;
+          color: #fff;
+          &:focus {
+            border: 1px solid #fff;
+          }
+        }
+      }
+    }
+
+  }
+  .top-line {
+    .logo, &>div {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .menu {
+      display: inline-block;
+      vertical-align: top;
+      position: relative;
+      z-index: 3;
+      li {
+        display: inline-block;
+        margin-right: 35px;
+        line-height: 35px;
+        &:last-child {
+          margin-right: 0;
+        }
+        a {
+          font-size: 21px;
+          color: #333232;
+          font-family: $all;
+          display: inline-block;
+          text-decoration: none;
+          &:hover {
+            color: #a34646;
+          }
+        }
+      }
+    }
+    .form-header {
+      display: inline-block;
+      vertical-align: top;
+      position: relative;
+      margin-left: 68px;
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 150px;
+        height: 75px;
+        z-index: 1;
+        visibility: hidden;
+      }
+      &:hover:after {
+        visibility: visible;
+      }
+      &:hover input {
+        display: block;
+      }
+      input {
+        display: none;
+        position: absolute;
+        z-index: 2;
+        bottom: -40px;
+        right: 0;
+        border: none;
+        width: 150px;
+        height: 25px;
+        font-size: 15px;
+        border-bottom: 1px solid #000;
+        background: none;
+        outline: none;
+        color: #000;
+        font-family: $all;
+        font-size: 15px;
+        padding: 0 5px;
+        &:focus {
+         border: 1px solid #000;
+       }
+     }
+     button {
+      z-index: 2;
+      position: relative;
+      background: url(img/search-all.png) center top no-repeat;
+      width: 34px;
+      height: 35px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+}
+.left-side {
+  display: inline-block;
+  text-align: center;
+  h6 {
+    color: white;
+    font-size: 22px;
+    margin: 0;
+    line-height: 30px;
+    font-family: $br;
+  }
+  h2 {
+    color: white;
+    font-size: 83px;
+    line-height: 83px;
+    font-family: $bbold;
+    margin: 0;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    background: url(img/pattern-1.png) center bottom no-repeat;
+    span {
+      font-family: $bbook;
+    }
+  }
+}
+
+}
