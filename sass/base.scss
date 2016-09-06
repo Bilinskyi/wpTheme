@@ -1,7 +1,7 @@
-.form-popup ::-webkit-input-placeholder {font-size: 21px;color: #6b6868;font-family: $all;}
-.form-popup ::-moz-placeholder {font-size: 21px;color: #6b6868;font-family: $all;}/* Firefox 19+ */
-.form-popup :-moz-placeholder {font-size: 21px;color: #6b6868;font-family: $all;}/* Firefox 18- */
-.form-popup :-ms-input-placeholder {font-size: 21px;color: #6b6868;font-family: $all;}
+.form-popup ::-webkit-input-placeholder {font-size: 17px;color: #6b6868;font-family: $all;}
+.form-popup ::-moz-placeholder {font-size: 17px;color: #6b6868;font-family: $all;}/* Firefox 19+ */
+.form-popup :-moz-placeholder {font-size: 17px;color: #6b6868;font-family: $all;}/* Firefox 18- */
+.form-popup :-ms-input-placeholder {font-size: 17px;color: #6b6868;font-family: $all;}
 
 * {box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
 .inline-center{text-align: center;}

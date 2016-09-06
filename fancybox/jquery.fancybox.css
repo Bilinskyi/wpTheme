@@ -120,9 +120,9 @@
 .fancybox-nav {
 	position: absolute;
 	top: 50%;
-	margin-top: -36px;
-	width: 60px;
-	height: 72px;
+	margin-top: -11px;
+	width: 27px;
+	height: 23px;
 	cursor: pointer;
 	text-decoration: none;
 	background: transparent url('blank.gif'); /* helps IE */
@@ -131,18 +131,18 @@
 }
 
 .fancybox-prev {
-	left: -100px;
+	left: -50px;
 }
 
 .fancybox-next {
-	right: -100px;
+	right: -50px;
 }
 
 .fancybox-nav span {
 	position: absolute;
 	top: 0;
-	width: 60px;
-	height: 72px;
+	width: 27px;
+	height: 23px;
 	cursor: pointer;
 	z-index: 8040;
 	visibility: visible;
